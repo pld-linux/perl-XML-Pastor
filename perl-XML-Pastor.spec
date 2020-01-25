@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Pastor
 Summary:	XML::Pastor - Generate Perl classes with XML bindings starting from a W3C XSD Schema
